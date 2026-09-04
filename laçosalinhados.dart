@@ -1,0 +1,14 @@
+void main() {
+  int hora = 0;
+
+  while (hora <= 23) {
+    // print(hora.toString()+ 'hrs');
+    int minutos = 0 ;
+    while (minutos<=59){
+      print('${hora.toStringAsFixed()}:${minutos.toStringAsFixed()}');
+      minutos ++;
+    }
+
+    hora ++;
+  }
+}
