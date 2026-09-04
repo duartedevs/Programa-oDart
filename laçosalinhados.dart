@@ -5,7 +5,7 @@ void main() {
     // print(hora.toString()+ 'hrs');
     int minutos = 0 ;
     while (minutos<=59){
-      print('${hora.toStringAsFixed()}:${minutos.toStringAsFixed()}');
+      print('${hora.toString()}:${minutos.toString()}');
       minutos ++;
     }
 
